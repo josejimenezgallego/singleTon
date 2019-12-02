@@ -11,7 +11,7 @@ class usuarioSesionTest extends TestCase
 		$usuario->setUsuarioSesion("Paco");		
 		$this->assertEquals($usuario->getUsuarioSesion(), "Paco");
 		$usuario = UsuarioSesion::getInstance();		
-		$this->assertEquals($usuario->getUsuarioSesion(), "Pepe");
+		$this->assertEquals($usuario->getUsuarioSesion(), "Paco");
      }
 }
 
